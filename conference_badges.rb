@@ -21,6 +21,7 @@ def assign_rooms(speaker_list)
   
   assignment_list = []
   speaker_list.each do |speaker, index|
+    
     break if index > 6 # we only have 7 rooms
     assignment_list.push(
       "Hello, #{speaker}! You'll be assigned to room #{index + 1}"
