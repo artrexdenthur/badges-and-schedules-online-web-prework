@@ -18,5 +18,7 @@ def assign_rooms(speaker_list)
   # rooms 1-7 are available
   # return a list of assignments in the form:
   # "Hello, ___! You'll be assigned to room __!"
-  for (1..7)
+  assignment_list = []
+  speaker_list.each do |speaker|
+    assignment_list.push()
 end
