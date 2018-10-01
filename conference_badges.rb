@@ -9,9 +9,6 @@ def batch_badge_creator(name_arr)
   badge_arr = []
   name_arr.each do |name|
     badge_arr.push(badge_maker(name))
-  binding.pry
   end
-  
+  badge_arr
 end
-
-batch_badge_creator(['a', 'b'])
