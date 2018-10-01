@@ -13,3 +13,5 @@ def batch_badge_creator(name_arr)
   end
   
 end
+
+batch_badge_creator(['a', 'b'])
