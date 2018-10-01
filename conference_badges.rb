@@ -25,5 +25,6 @@ def assign_rooms(speaker_list)
     assignment_list.push(
       "Hello, #{speaker}! You'll be assigned to room #{index + 1}"
       )
-    
+  end
+  assignment_list
 end
