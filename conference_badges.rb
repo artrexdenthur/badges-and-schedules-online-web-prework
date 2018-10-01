@@ -20,8 +20,7 @@ def assign_rooms(speaker_list)
   # "Hello, ___! You'll be assigned to room __!"
   
   assignment_list = []
-  speaker_list.each do |speaker, index|
-    binding.pry
+  speaker_list.each_with_index do |speaker, index|
     break if index > 6 # we only have 7 rooms
     assignment_list.push(
       "Hello, #{speaker}! You'll be assigned to room #{index + 1}"
