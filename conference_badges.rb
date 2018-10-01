@@ -18,7 +18,12 @@ def assign_rooms(speaker_list)
   # rooms 1-7 are available
   # return a list of assignments in the form:
   # "Hello, ___! You'll be assigned to room __!"
+  
   assignment_list = []
-  speaker_list.each do |speaker|
-    assignment_list.push()
+  speaker_list.each do |speaker, index|
+    break if index > 6 # we only have 7 rooms
+    assignment_list.push(
+      "Hello, #{speaker}! You'll be assigned to room #{index + 1}"
+      )
+    
 end
