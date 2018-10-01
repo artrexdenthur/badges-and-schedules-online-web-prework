@@ -12,3 +12,11 @@ def batch_badge_creator(name_arr)
   end
   badge_arr
 end
+
+def assign_rooms(speaker_list)
+  # assign each speaker to a room 
+  # rooms 1-7 are available
+  # return a list of assignments in the form:
+  # "Hello, ___! You'll be assigned to room __!"
+  for (1..7)
+end
