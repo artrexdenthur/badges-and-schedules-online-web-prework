@@ -29,5 +29,3 @@ def assign_rooms(speaker_list)
   end
   assignment_list
 end
-
-assign_rooms(['a', 'b'])
