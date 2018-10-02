@@ -102,7 +102,7 @@ TEXT
         # is checking to see whether or not your terminal screen receives the correct
         # printed output.
         expect($stdout).to receive(:puts).with(line.chomp)
-        
+        binding.pry
       end
       printer(attendees)
     end
